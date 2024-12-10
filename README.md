@@ -1,16 +1,16 @@
 # JKFLIPFLOP-USING-IF-ELSE
 
-**AIM:** 
+## **AIM:** 
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+## **SOFTWARE REQUIRED:**
 
 Quartus prime
 
-**THEORY**
+## **THEORY**
 
-**JK Flip-Flop**
+## **JK Flip-Flop**
 
 JK flip-flop is the modified version of SR flip-flop. It operates with only positive clock transitions or negative clock transitions. The circuit diagram of JK flip-flop is shown in the following figure.
 
@@ -32,17 +32,32 @@ By using three variable K-Map, we can get the simplified expression for next sta
 
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
-**Procedure**
+## **Procedure**
+```
+1.Type the program in Quartus software using Verilog.
+2.Compile and run the program.
+3.Generate the RTL schematic and save the logic diagram.
+4.Create nodes for inputs and outputs to generate the timing diagram.
+5.Generate the timing diagram for different input combinations.
+```
 
-/* write all the steps invloved */
+## **PROGRAM**
+![JK program](https://github.com/user-attachments/assets/c5e32d59-653d-4dcc-bfda-b7d23601e14c)
 
-**PROGRAM**
+```
+Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by:S.HARIKA
+RegisterNumber:24002063
+```
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+## **RTL LOGIC FOR FLIPFLOPS**
 
-**RTL LOGIC FOR FLIPFLOPS**
+![JK FlipFlop](https://github.com/user-attachments/assets/8b6a2157-2436-4ef3-ad9a-8deb2eab4879)
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+## **TIMING DIGRAMS FOR FLIP FLOPS**
 
-**RESULTS**
+![JK wf](https://github.com/user-attachments/assets/ccf5651f-dbc8-4ae2-971d-0f5313909996)
+
+
+## **RESULTS**
+Thus,the JK Flip-Flop is designed and its functionality is validated using the truth table and timing diagrams.
